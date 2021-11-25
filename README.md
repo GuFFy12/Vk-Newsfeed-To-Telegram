@@ -1,5 +1,7 @@
 # vk_newsfeed_to_telegram
 
-Parse vk user newsfeed (only photo, doc, video and album attachments without text!) and send it to telegram. (Using
-method newsfeed.get)
-MAYBE ILL ADD SUPPORT TO OTHER ATTACHMENTS AND TEXT!
+Parse vk user newsfeed (only photo, doc, gif, video, article and album attachments with title) and send it to telegram. (Using method newsfeed.get)
+
+1) pip install -r requirements.txt
+2) Change setting in settings.ini
+3) py main.py
